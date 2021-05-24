@@ -1,0 +1,21 @@
+class Person:
+    def __init__(str fname, str lname):
+        self.firstname = fname
+        self.lastname = lname
+    
+    def printname():
+        print(self.firstname + " " + self.lastname)
+
+Person x = Person("John", "Doe")
+x.printname()
+
+class Student(Person):
+    def __init__(str fname, str lname, int year):
+        super().__init__(fname, lname)
+        self.graduationyear = year
+
+    def welcome():
+        print("Welcome " + self.firstname + " " + self.lastname + " to the class of " + self.graduationyear)
+
+Student s = Student("Will", "Dahl", 2021)
+s.welcome()

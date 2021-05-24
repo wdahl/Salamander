@@ -1,0 +1,18 @@
+global int i = 0
+global lock l = Lock()
+
+def thread_fuction(int n):
+    while i < n:
+        getLock(l)
+        print(i)
+        i=i+1
+        releaseLock(l)
+
+thread t1 = Thread(thread_fuction, (100,))
+thread t2 = Thread(thread_fuction, (100,))
+
+start(t1)
+start(t2)
+
+join(t1)
+join(t2)

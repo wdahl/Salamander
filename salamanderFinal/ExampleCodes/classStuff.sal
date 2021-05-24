@@ -1,0 +1,40 @@
+class Warehouse:
+    str purpose = 'storage'
+    str region = 'west'
+
+Warehouse w1 = Warehouse()
+print(w1.purpose + " " + w1.region)
+Warehouse w2 = Warehouse()
+w2.region = 'east'
+print(w2.purpose + " " + w2.region)
+
+def float f1(float x, float y):
+    return x if x < y else y
+
+class C:
+    Object f = f1
+    
+    def str g():
+        return "hello world"
+
+C c = C()
+print(c.f)
+Object f2 = c.f
+print(f2(1,2))
+
+class Bag:
+    def __init__():
+        self.data = []
+
+    def add(Object x):
+        self.data[len(self.data)] = x
+
+    def addTwice(Object x):
+        self.add(x)
+        self.add(x)
+
+Bag bag = Bag()
+bag.add(1)
+bag.addTwice("two")
+
+print(bag.data)

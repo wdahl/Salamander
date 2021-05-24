@@ -1,0 +1,15 @@
+print('spam eggs') # single quotes
+print('doesn\'t') # use \' to escape the single quote...
+print("doesn't") # ...or use double quotes instead
+print('"Yes," they said.')
+print("\"Yes,\" they said.")
+print('"Isn\'t," they said.')
+
+str s = 'First line.\nSecond line.'  # \n means newline
+print(s) # with print(), \n produces a new line
+print('C:\some\name')  # here \n means newline!
+print(r'C:\some\name')  # note the r before the quote
+print("sal" + "aman" + "der") # strings can be concatinated with plus operator
+str text = 'strings can be concatinated' + ' together with the "+" operator'
+print(text)
+print( text + " in salamander")

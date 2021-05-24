@@ -1,0 +1,4 @@
+import './functions.sal'
+
+fib(1000)
+print(fib2(100))

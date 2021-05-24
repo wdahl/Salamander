@@ -1,0 +1,24 @@
+int year = 2016
+str event = 'Referendum'
+print(f"Results of the {year} {event}")
+
+int yes_votes = 42572654
+int no_votes = 43132495
+float percentage = yes_votes / (yes_votes + no_votes)
+print(f"{yes_votes} YES votes {percentage}")
+
+str s = 'Hello, world'
+print(toStr(s))
+print(toStr(1/7))
+
+float x = 10 * 3.25
+int y = 200 * 200
+s = 'The value of x is ' + toStr(x) + ', and y is ' + toStr(y) + '...'
+print(s)
+
+dict table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 7678}
+for name in table:
+    print(f"{name} ==> {table[name]}")
+
+str animals = 'eels'
+print(f"My hovercraft is full of {animals}.")

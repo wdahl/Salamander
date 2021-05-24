@@ -1,0 +1,8 @@
+for e in [1,2,3]:
+    print(e)
+
+for e in (1,2,3):
+    print(e)
+
+for key in {"one": 1, "two": 2}:
+    print(key)

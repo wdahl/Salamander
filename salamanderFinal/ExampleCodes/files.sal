@@ -1,0 +1,14 @@
+file writer = open("./file.txt", "w")
+write(writer, "This will be written to the file\n")
+close(writer)
+
+file reader = open("./file.txt", "r")
+print(read(reader))
+close(reader)
+
+file appender = open("./file.txt", "a")
+write(appender, "This will be appended to the file\n")
+close(appender)
+
+reader = open('./file.txt', "r")
+print(read(reader))

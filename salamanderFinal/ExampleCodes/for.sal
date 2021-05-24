@@ -1,0 +1,12 @@
+list words = ['cat', 'window', 'defenestrate']
+for w in words:
+    print(w + " " + len(w))
+    
+for i in range(5):
+    print(i)
+
+list a = ['Mary', 'had', 'a', 'little', 'lamb']
+for i in range(len(a)):
+    print(i + " " + a[i])
+
+print(range(10))

@@ -1,0 +1,29 @@
+class MyClass:
+    int i = 12345
+    def __init__():
+        self.data = []
+
+    def str f():
+        return "hello world"
+
+MyClass x = MyClass()
+print(x.i)
+print(x.f())
+print(x.data)
+
+class Complex:
+    def __init__(float real, float imag):
+        self.r = real
+        self.i = imag
+
+Complex c = Complex(3.0, -4.5)
+print((c.r, c.i))
+
+x.counter = 1
+while x.counter < 10:
+    x.counter = x.counter * 2
+print(x.counter)
+
+Object xf = x.f
+while True:
+    print(xf())

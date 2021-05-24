@@ -1,0 +1,6 @@
+socket s = Socket()
+bind(s, 65432)
+listen(s)
+socket conn = accept(s)
+str data = recv(conn, 1024)
+send(conn, data)

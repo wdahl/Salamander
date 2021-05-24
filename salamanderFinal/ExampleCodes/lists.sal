@@ -1,0 +1,31 @@
+list squares = [1, 4, 9, 16, 25]
+print(squares)
+print(squares[0]) # indexing returns the item
+print(squares[-1])
+print(squares[3:5]) # slicing returns a new list
+
+print(squares + [36, 49, 64, 81, 100]) # lists can be concatinated
+
+list cubes = [1, 8, 27, 65, 125]  # something's wrong here
+print( 4**3 ) # 64
+cubes[3] = 64  # replace the wrong value
+print(cubes) # [1, 8, 27, 64, 125]
+
+list letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+print(letters)
+letters[2:5] = ['C', 'D', 'E']
+print(letters)
+
+# now remove them
+letters[2:5] = []
+print(letters)
+
+letters = ['a', 'b', 'c', 'd']
+print(len(letters))
+
+list a = ['a', 'b', 'c']
+list n = [1, 2, 3]
+list x = [a, n]
+print(x) # [[a, b, c], [1, 2, 3]]
+print(x[0]) # [a, b, c]
+print(x[0][1]) # b

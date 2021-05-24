@@ -1,0 +1,33 @@
+def fib(int n):
+    int a = 0
+    int b = 1
+    while a < n:
+        print(a)
+        a = b
+        b = a+b
+    
+    print(a)
+
+fib(2000)
+
+Object f = fib
+f(100)
+
+fib(0)
+print(fib(0))
+
+def list fib2(int n):
+    list result = []
+    int i = 0
+    int a = 0
+    int b = 1
+    while a < n:
+        result[i] = a
+        i = i+1
+        a = b
+        b = a+b
+
+    return result
+
+list f100 = fib2(100)
+print(f100)

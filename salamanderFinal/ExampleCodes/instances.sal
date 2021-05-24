@@ -1,0 +1,22 @@
+class Dog:
+    str kind = 'canine' # class variable shared by all instances
+    list tricks = []
+
+    def __init__(str name):
+        self.name = name # instance variable unique to each instance
+
+    def add_trick(str trick):
+        self.tricks[len(self.tricks)] = trick
+
+Dog d = Dog('Fido')
+Dog e = Dog('Buddy')
+print(d.kind) # shared by all dogs
+print(e.kind) # shared by all dogs
+print(d.name) # unique to d
+print(e.name) # unique to e
+
+d.add_trick('roll over')
+e.add_trick('play dead')
+print(d.tricks) # shared by all dogs, 
+                # an instance varibale should be used instead for desiered functionality.
+

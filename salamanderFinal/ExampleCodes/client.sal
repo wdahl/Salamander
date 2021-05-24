@@ -1,0 +1,6 @@
+socket s = Socket()
+connect(s, '127.0.0.1', 65432)
+send(s, "Hello, world")
+str data = recv(s, 1024)
+
+print(data)

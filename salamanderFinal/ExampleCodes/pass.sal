@@ -1,0 +1,8 @@
+class MyEmptyClass:
+    pass
+
+def log():
+    pass
+
+while True:
+    pass # Busy-wait for keyboard interrupt (Ctrl+C)
